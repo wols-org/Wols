@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Wols.Core/Wols.Core.csproj" />
+  <Project Path="Wols.Rendering.Godot/Wols.Rendering.Godot.csproj" />
+</Solution>
