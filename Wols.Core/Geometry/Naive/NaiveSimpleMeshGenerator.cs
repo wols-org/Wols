@@ -2,9 +2,9 @@ using System.Numerics;
 
 namespace Wols.Core.Geometry.Naive;
 
-public static class NaiveMeshGenerator
+public class NaiveSimpleMeshGenerator : ISimpleMeshGenerator
 {
-    public static IMesh CreateCube(float a = 1.0f)
+    public IMesh CreateCube(float a = 1.0f)
     {
         float x = a / 2.0f;
         
