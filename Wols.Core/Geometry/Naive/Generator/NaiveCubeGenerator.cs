@@ -1,10 +1,11 @@
 using System.Numerics;
+using Wols.Core.Geometry.Generator;
 
-namespace Wols.Core.Geometry.Naive;
+namespace Wols.Core.Geometry.Naive.Generator;
 
-public class NaiveSimpleMeshGenerator : ISimpleMeshGenerator
+public class NaiveCubeGenerator : ICubeGenerator
 {
-    public IMesh CreateCube(float a = 1.0f)
+    public IMesh Generate(float a = 1.0f)
     {
         float x = a / 2.0f;
         

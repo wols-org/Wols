@@ -12,4 +12,5 @@ public class NaiveMesh : IMesh
 
     public IReadOnlyList<Vector3> Vertices { get; }
     public IReadOnlyList<Triangle> Triangles { get; }
+    public MeshType MeshType => MeshType.Naive;
 }
