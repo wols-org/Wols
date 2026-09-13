@@ -34,9 +34,14 @@ public class NaiveMesh : IMesh
 
     #region Modifiers
 
-    public void MoveVertex(int idx, Vector3 newPosition)
+    public void MoveVertexTo(int idx, Vector3 newPosition)
     {
         _vertices[idx] = newPosition;
+    }
+
+    public void MoveCenterTo(Vector3 newCenter)
+    {
+        _center = newCenter;
     }
 
     #endregion

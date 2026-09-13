@@ -19,7 +19,7 @@ public class NaiveScaler : IScaler
         {
             Vector3 vertex = naiveMesh.Vertices[idx];
             Vector3 scaledVertex = ScaleVertexFromCenter(vertex, naiveMesh.Center, scaleFactorVector);
-            naiveMesh.MoveVertex(idx, scaledVertex);
+            naiveMesh.MoveVertexTo(idx, scaledVertex);
         }
 
         return naiveMesh;
