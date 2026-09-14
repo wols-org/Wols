@@ -5,7 +5,7 @@ namespace Wols.Core.Tests.Geometry;
 public class MeshTypeTests
 {
     [Fact]
-    public void MeshType_HasNaiveElementWithValueOne()
+    public void MeshType_HasNaiveElementWithIndexOne()
     {
         const string valueNaive = "Naive";
         const int valueNaiveIndex = 1;
